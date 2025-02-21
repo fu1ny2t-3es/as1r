@@ -16,9 +16,6 @@ set(ASAR_API_VERSION_MINOR 3)
 set(ASAR_API_VERSION_PATCH 0)
 set(ASAR_API_VERSION ${ASAR_API_VERSION_MAJOR}.${ASAR_API_VERSION_MINOR}.${ASAR_API_VERSION_PATCH})
 
-set (CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fsanitize=address")
-set (CMAKE_LINKER_FLAGS_DEBUG "${CMAKE_LINKER_FLAGS_DEBUG} -fsanitize=address")
-
 include(GNUInstallDirs)
 
 # This macro sets a number of properties required by both,
